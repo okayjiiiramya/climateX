@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimateX🌍</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('wthr.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+    <div id="weather-container">
+        <div id="aqi-container">
+            
+            <p id="aqi-level">Loading...</p>
+            <p id="aqi-message"></p>
+        </div>
+        
+        <h2 style="color:rgb(89, 126, 220);">climateX 🌍 </h2>
+        <input type="text" id="city" placeholder="Enter city">
+        <button onclick="getWeather()">Search</button>
+
+<br><br>
+        
+<br>
+        <div id="temp-div" style="margin: 50px;"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+        <div id="weather-recommendation"></div> 
+    </div>
+   
+
+    <script src="script.js"></script>
+    
+</body>
+</html> 
