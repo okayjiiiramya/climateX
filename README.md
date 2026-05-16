@@ -26,7 +26,6 @@ ClimateX is a modern weather application that provides real-time weather updates
 
 ## 📂 Project Structure
 
-```bash
 ClimateX/
 │── index.html
 │── styles.css
